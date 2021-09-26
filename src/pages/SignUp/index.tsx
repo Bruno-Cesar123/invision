@@ -18,11 +18,11 @@ interface SignUpFormData {
 }
 
 const validationSchema = Yup.object().shape({
-  name: Yup.string().required('*Este campo não pode ser vazio'),
+  name: Yup.string().required('*Este campo não pode estar vazio'),
   email: Yup.string()
-    .required('*Este campo não pode ser vazio')
+    .required('*Este campo não pode estar vazio')
     .email('Email incorreto'),
-  password: Yup.string().min(6, '*No mínimo 6 caracteres').required('*Este campo não pode ser vazio'),
+  password: Yup.string().min(6, '*No mínimo 6 caracteres').required('*Este campo não pode estar vazio'),
 });
 
 export default function SignUp() {

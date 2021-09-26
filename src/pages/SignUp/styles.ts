@@ -121,13 +121,12 @@ export const Info = styled.div`
   margin-top: 40px;
   text-align: center;
 
-  div {
-    span {
-      font-weight: 900;
-    }
+  
+  span {
+    font-weight: 900;
+  }
 
-    a {
-      color: var(--blue);
-    }
+  a {
+    color: var(--blue);
   }
 `;

@@ -123,13 +123,13 @@ export default function SignUp() {
           />
 
           <Info>
-            <p>
+            <div>
               By signing up, you agree to <span>Invison</span>
               <div>
                 <Link to="/">Terms of Conditions</Link> and 
                 <Link to="/"> Privacy Police</Link>
               </div>
-            </p>
+            </div>
           </Info>
 
           <Actions>

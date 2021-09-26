@@ -121,7 +121,7 @@ export const Info = styled.div`
   margin-top: 40px;
   text-align: center;
 
-  p {
+  div {
     span {
       font-weight: 900;
     }
